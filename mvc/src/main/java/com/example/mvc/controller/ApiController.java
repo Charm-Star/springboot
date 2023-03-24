@@ -13,7 +13,4 @@ public class ApiController {
     public UserReq user(UserReq userReq){
         return userReq;
     }
-
-
-
 }

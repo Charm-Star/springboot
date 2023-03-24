@@ -11,4 +11,6 @@ import lombok.NoArgsConstructor;
 public class UserReq {
     private String name ;
     private int age ;
+
+    private String email;
 }
