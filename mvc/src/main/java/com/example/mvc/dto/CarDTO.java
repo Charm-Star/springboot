@@ -9,10 +9,11 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class UserReq {
-    private String name ;
-    private int age ;
-    private String email;
-    @JsonProperty("phone-number")
-    private String phoneNumber;
+public class CarDTO {
+
+    private String carName;
+
+    @JsonProperty("car-number")
+    private String carNumber;
+
 }
