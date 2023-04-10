@@ -10,7 +10,7 @@ import java.util.Map;
 public class GetApiController {
 
     @GetMapping(path = "/hello")    // http://localhost:8080/api/get/hello
-    public String gethello(){
+    public String getHello(){
         return "get Hello";
     }
     @RequestMapping(path = "/hi",method = RequestMethod.GET) // http://localhost:8080/api/get/hi
